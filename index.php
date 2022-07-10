@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing Grace</title>
-    <link class="logo" rel="icon" href="../assets/logos/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/css/index.css">
+    <link class="logo" rel="icon" href="./assets/logos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
 <body>
     <header id="header">
 
-        <img class="logo" src="../assets/logos/logo.png" alt="Assemblies of God">
+        <img class="logo" src="./assets/logos/logo.png" alt="Assemblies of God">
 
         <nav class="nav-menu">
 
@@ -132,7 +132,7 @@
 
             <div class="picture_flow">
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
                     <div>
                         <p>Name</p>
                         <p>Position</p>
@@ -140,7 +140,7 @@
 
                 </div>
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
                     <div>
                         <p>Name</p>
                         <p>Position</p>
@@ -148,7 +148,7 @@
 
                 </div>
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
                     <div>
                         <p>Name</p>
                         <p>Position</p>
@@ -163,17 +163,17 @@
             <h3>Missions</h3>
             <div class="picture_flow">
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
 
                 </div>
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
 
                 </div>
                 <div class="card picture_details">
-                    <img class="avartar" src="../assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
                 </div>
 
@@ -219,7 +219,7 @@
         </footer>
 
     </main>
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
