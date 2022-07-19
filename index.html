@@ -9,6 +9,7 @@
     <link class="logo" rel="icon" href="./assets/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -19,93 +20,185 @@
         <img class="logo" src="./assets/logos/logo.png" alt="Assemblies of God">
 
         <nav class="nav-menu">
-
-
-            <ul>
-
-                <li><a href="#">Home</a></li>
-                <li><a href="#week">Schedule</a></li>
-                <li><a href="#leadership">Department</a></li>
-                <li><a href="#missions">Missions</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-
-            </ul>
-
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#leadership">Department</a>
+                <a href="#missions">Missions</a>
+                <a href="#contact">Contact Us</a>
         </nav>
 
 
     </header>
 
     <main>
-
-        <div >
-            <div id="myCarousel" class="carousel slide" data-ride="carousel"style="height:500px;">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-            
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./assets/images/1.png" style="height: 500px; width: 100%;" alt="Los Angeles" style="width:100%;">
-                  </div>
-            
-                  <div class="item">
-                    <img src="./assets/images/2.png" style="height: 500px; width: 100%;" alt="Chicago" style="width:100%;">
-                  </div>
+        <section id="home">
+            <div >
+                <div id="myCarousel" class="carousel slide" data-ride="carousel"style="height:500px;">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
                 
-                  <div class="item">
-                    <img src="./assets/images/3.png" style="height: 500px; width: 100%;" alt="New york" style="width:100%;">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="./assets/images/1.png" style="height: 500px; width: 100%;" alt="Los Angeles" style="width:100%;">
+                      </div>
+                
+                      <div class="item">
+                        <img src="./assets/images/2.png" style="height: 500px; width: 100%;" alt="Chicago" style="width:100%;">
+                      </div>
+                    
+                      <div class="item">
+                        <img src="./assets/images/3.png" style="height: 500px; width: 100%;" alt="New york" style="width:100%;">
+                      </div>
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                   </div>
+            </div>
+
+            
+
+            <div id="roud_shape"></div>
+    
+        </section>
+
+        <section id="about" class="about-grid">
+            
+
+                    <h3  id="h">About the church</h3>
+                    
+                    <img id="a" src="./assets/images/1.png" alt="small-picture-church">
+                    
+                    <div id="c-1" >
+                            <h4>Mission</h4>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  
+                    </div>
+                    <div id="c-2" >
+                            <h4>Vission</h4>
+                            <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+                    </div>
+                
+
+                <div class="acordion">
+                    <h4>Weekly Schedule</h4>
+                    <button id="" class="spec_day">
+                        Sunday
+                        <i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meeting Sunday</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+                    <button id="" class="spec_day">
+                        Monday<i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meeting Moanday</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+                    <div id="" class="spec_day">
+                        Tuesday<i class="ti-plus" style="float:right;"></i></div>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meet 1</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+
+                    <button id="" class="spec_day">
+                        Wednesday<i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meet 1</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+                    <button id="" class="spec_day">
+                        Thursday<i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meet 1</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+
+                    <button id="" class="spec_day">
+                       Friday<i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meet 1</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+                    <button id="" class="spec_day">
+                        Saturday<i class="ti-plus" style="float:right;"></i></button>
+                        <div class="spec_det">
+                            <ul>
+                                <li>Meet 1</li>
+                                <li>Meet 2</li>
+                            </ul>
+                        </div>
+                    
+
+
+                </div>
+       
+                
+            
+        </section>
+
+        <section class="verse" style="display: flex;"">
+            
+                <div class="verse-title">
+                    <p>Gods Word Today</p>
+                </div>
+
+                <hr style="color:black; width: 20px; height: 50px;">
+
+                
+                <div class="verse-content">
+                    <p> <br>LORD, I have heard of your fame; I stand in awe of your deeds, LORD. Repeat them in our day, in our time make them known; in wrath remember mercy.
+                        <em>Hab. 3:2</em></p>
+
                 </div>
             
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-        </div>
-        <section>
-            <p>
-                We are children of God and we believe that Jesus Died on the Cross to redeam us from all sin and
-                unrightheosness.
-            </p>
         </section>
+        
 
-        <section id="week">
-            <div>
-                <h3>Activities for the week</h3>
-
-                <div id="shedule" style="padding:0 25% 0 ;">
-
-                    <div class="days_week">
-                        <ul>
-                            <li>Sunday</li>
-                            <li>Monday</li>
-                            <li>Tuesday</li>
-                            <li>Wednesday</li>
-                            <li>Thurday</li>
-                            <li>Friday</li>
-                            <li>Saturday</li>
-                        </ul>
-                    </div>
-                </div>
-        </section>
+        
 
         <section id="leadership">
             <h3>Leadership</h3>
             <div class="lead">
-                <div class="dept" type="button">Pastors</div>
-                <div class="dept" type="button">Decons</div>
-                <div class="dept" type="button">Department
+                <button id="p-lead" class="dept" type="button">Pastors</button>
+                <button id="d-lead"class="dept" type="button">Decons</button>
+                <button id="D-lead" class="dept" type="button">Departments
                     <div class="mins_list">
                         <a>Mens Ministry</a>
                         <a>Womens Ministry</a>
@@ -113,34 +206,112 @@
                         <a>Teens Minstry</a>
                         <a>Children Ministry</a>
                     </div>
+                </button>
+            </div>
+
+            <div id="pastors" class="picture_flow" style="display: block;">
+                <!--Pastors-->
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Rev Joseph Asante</p>
+                    <p>Head Pastor</p>
+                </div>
+
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Pastor Samuel Nyantekyi</p>
+                    <p>Associate Pastor</p>
                 </div>
             </div>
 
-            <div class="picture_flow">
-                <div class="card picture_details">
-                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
-                    <div>
-                        <p>Name</p>
-                        <p>Position</p>
-                    </div>
 
-                </div>
-                <div class="card picture_details">
+                <!--Decons-->
+            <div id="deacons" class="picture-flow" style="display: none;">
+                <div class="card">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
-                    <div>
-                        <p>Name</p>
-                        <p>Position</p>
-                    </div>
-
+                    <p>Deacon Abdullai </p>
                 </div>
-                <div class="card picture_details">
+
+                <div class="card">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
-                    <div>
-                        <p>Name</p>
-                        <p>Position</p>
-                    </div>
-
+                    <p>Deacon Banson</p>
+                    
                 </div>
+            </div>
+
+                <!--Mens Department-->
+            <div id="mens-dept" class="picture-flow" style="display: none;">
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mr. Asafo</p>
+                    <p>President</p>
+                </div>
+
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mr. Arhin</p>
+                    <p>Vice President</p>
+                </div>
+            </div>
+
+                <!--Womens Department-->
+            <div id="wmen-dept" class="picture-flow" style="display: none;" >
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mrs. Amoako</p>
+                    <p>President</p>
+                </div>
+
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mrs. Tetteh</p>
+                    <p>Vice President</p>
+                </div>
+            </div>
+                <!--Youth Department-->
+            <div id="y-dept" class="picture-flow" style="display: none;">
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Naana Agyeman</p>
+                    <p>President</p>
+                </div>
+
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Price AmanKoah</p>
+                    <p>Vice-President</p>
+                </div>
+            </div>
+
+                <!--Teens Department-->
+            <div id="t-dept" class="picture-flow" style="display: none;">
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Princess Asante</p>
+                    <p>President</p>
+                </div>
+
+                <div  class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Grabriel</p>
+                    <p>Vice Preisident</p>
+                </div>
+            </div>
+
+                <!--Children Department-->
+            <div id="c-dept" class="picture-flow" style="display: none;">
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mrs. Veronica Asante</p>
+                    <p>Osofo Maame</p>
+                </div>
+
+                <div class="card">
+                    <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
+                    <p>Mrs Nyantekyi</p>
+                    <p>Osofo Maame 2</p>
+                </div>
+                
 
             </div>
 
