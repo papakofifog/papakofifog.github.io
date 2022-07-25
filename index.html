@@ -14,26 +14,55 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="main-body">
     <header id="header">
 
-        <img class="logo" src="./assets/logos/logo.png" alt="Assemblies of God">
+        
 
-        <nav class="nav-menu">
+            <img class="quote-icon" src="./assets/logos/logo.png" alt="Assemblies of God">
+
+            <nav class="nav-menu">
+                    
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#leadership">Department</a>
+                    <a href="#missions">Missions</a>
+                    <a href="#contact">Contact</a>
+            </nav>
+
+            <button id="nav-button" >
+                <img id="nav-icon" class="quote-icon" src="./assets/svg icons/bars-svgrepo-com.svg" alt="menu-button">
+            </button>
+
+        
+
+        <div id="nav-container">
+            <!--<div class="control-box">
+                <button id="cancel-button1">
+                    <img class="quote-icon" src="./assets/svg icons/cancel-svgrepo-com.svg" alt="cancel-button">
+                </button>
+            </div>-->
+            <div class="navigation">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#leadership">Department</a>
                 <a href="#missions">Missions</a>
                 <a href="#contact">Contact Us</a>
-        </nav>
+
+            </div>
+            
+    
+
+        </div>
 
 
     </header>
 
+    
+
     <main>
         <section id="home">
-            <div >
-                <div id="myCarousel" class="carousel slide" data-ride="carousel"style="height:500px;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -66,28 +95,31 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-            </div>
+           
 
             
 
-            <div id="roud_shape"></div>
+            
     
         </section>
 
-        <section id="about" class="about-grid">
-            
+        <section id="about">
+            <div class="about-grid">
+                    <div id="h">
+                        <h3>About the church</h3> 
+                        
+                    </div>
 
-                    <h3  id="h">About the church</h3>
                     
-                    <img id="a" src="./assets/images/1.png" alt="small-picture-church">
+                    <div id="a">
+                        <img class="avartar"  style="max-width: 600px;
+                        min-width: 200px;" src="./assets/images/1.png" alt="small-picture-church">
+                    </div>
+                   
                     
                     <div id="c-1" >
-                            <h4>Mission</h4>
+                            <h4>About</h4>
                             <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>  
-                    </div>
-                    <div id="c-2" >
-                            <h4>Vission</h4>
-                            <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
                     </div>
                 
 
@@ -168,26 +200,45 @@
 
 
                 </div>
-       
-                
-            
+            </div>
         </section>
 
-        <section class="verse" style="display: flex;"">
+        <section class="verse">
             
                 <div class="verse-title">
                     <p>Gods Word Today</p>
                 </div>
 
-                <hr style="color:black; width: 20px; height: 50px;">
+                <div id="round-shape"><img class="quote-icon" src="./assets/svg icons/right-quote-svgrepo-com.svg"></div>
 
-                
                 <div class="verse-content">
                     <p> <br>LORD, I have heard of your fame; I stand in awe of your deeds, LORD. Repeat them in our day, in our time make them known; in wrath remember mercy.
                         <em>Hab. 3:2</em></p>
 
                 </div>
             
+        </section>
+
+        <section class="misson">
+                <div class="vision-mission-grid">
+                    <div class="vision-title"><h2>Our Mision And Vission</h2></div>
+                    <div class="mission-pic">
+                        <img class="about-section-pictures" src="./assets/images/3.png" alt="mission Picture">
+                    </div>
+                    <div class="mission-text">
+                        <h3>Mision</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="vision-text">
+                        <h3>Vision</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="vision-pic">
+                        <img class="about-section-pictures" src="./assets/images/2.png" alt="vision-pic">
+                    </div>
+                    
+                </div>
+            </div>
         </section>
         
 
@@ -196,9 +247,9 @@
         <section id="leadership">
             <h3>Leadership</h3>
             <div class="lead">
-                <button id="p-lead" class="dept" type="button">Pastors</button>
-                <button id="d-lead"class="dept" type="button">Decons</button>
-                <button id="D-lead" class="dept" type="button">Departments
+                <div id="p-lead" class="dept" type="button" onclick="showLeadership('p-lead')">Pastors</div>
+                <div id="d-lead"class="dept" type="button" onclick="showLeadership('d-lead')">Decons</div>
+                <div id="D-lead" class="dept" type="button" onclick="showLeadership('D-lead')">Departments
                     <div class="mins_list">
                         <a>Mens Ministry</a>
                         <a>Womens Ministry</a>
@@ -206,10 +257,10 @@
                         <a>Teens Minstry</a>
                         <a>Children Ministry</a>
                     </div>
-                </button>
+                </div>
             </div>
 
-            <div id="pastors" class="picture_flow" style="display: block;">
+            <div id="pastors" class="picture_flow" >
                 <!--Pastors-->
                 <div class="card">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
@@ -226,7 +277,7 @@
 
 
                 <!--Decons-->
-            <div id="deacons" class="picture-flow" style="display: none;">
+            <div id="deacons" class="picture-flow" style="display:none;">
                 <div class="card">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
                     <p>Deacon Abdullai </p>
@@ -319,17 +370,17 @@
         <section id="missions">
             <h3>Missions</h3>
             <div class="picture_flow">
-                <div class="card picture_details">
+                <div class="card">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
 
                 </div>
-                <div class="card picture_details">
+                <div class="card ">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
 
                 </div>
-                <div class="card picture_details">
+                <div class="card ">
                     <img class="avartar" src="./assets/img/team/team-1.png" alt="Picture of Pastor">
 
                 </div>
@@ -361,18 +412,19 @@
 
         </section>
         <footer class="footer">
-            <div class="footer-row1">
-                <p> <strong> &copy 2022 </strong> Amazing Grace Assemblies of God</p>
-            </div>
+            
 
             <div class="social">
-                <div>Facebook</div>
-                <div>Instagram</div>
-                <div>Youtube</div>
+                <a id="fb"><img src="./assets/svg icons/facebook-svgrepo-com.svg">Facebook</a>
+                <a id="ig"><img src="./assets/svg icons/instagram-svgrepo-com.svg">Instagram</a>
+                <a id="video"><img src="./assets/svg icons/youtube-svgrepo-com.svg">Youtube</a>
+                <a id="bird"><img src="./assets/svg icons/twitter-svgrepo-com.svg">Twitter</a>
             </div>
-            <div class="admin">
-                <a href="#">Admin</a>
+            <div class="footer-row1">
+                <p> <strong> &copy 2022 </strong> Amazing Grace Assemblies of God</p>
+                <a href="#">Admin</a>  
             </div>
+            
         </footer>
 
     </main>
